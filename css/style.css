@@ -1,0 +1,183 @@
+/*-------------------------------------COMENZANDO HEADER*/
+body{
+    font-family: "Pathway Gothic One";
+}
+header {
+    background-color: #333;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 400px;
+    top:30px;
+    font-size: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 7px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 3px 3px 0 #000;
+    padding: 0 10px;  
+}
+nav li:hover{
+    background-color: rgba(238,238,238,0.5);
+}
+header img{
+    width:80px;
+    display: block;
+    float: left;
+    margin: 10px   
+}
+/*--------------------------FIN DE HEADER*/
+
+/*-------------------------------------COMENZANDO SECTION*/
+.section1 {
+    background-color: #eeeeee;
+    border-bottom: 1px solid gray;
+}
+.section1 a{
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none;
+}
+.episodes ul{
+    display: inline-block;
+}
+.episodes a{
+   text-decoration: none;
+    font-weight: bolder;
+    color: royalblue;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.episodes a:hover{
+    color:#792f2f;
+}
+.episodes img{
+    width:100%;
+    border: 1px solid gray;
+    padding: 3px;
+    background-color: #fff;
+}
+.latest h1{
+    display: block;
+    display: inline-block;
+    margin: 15px 0;
+    padding: 5px; 
+}
+.latest a{
+    text-decoration: none;
+    color: royalblue;
+    font-weight: bolder;
+}
+.latest a:after{
+    content: "→"
+}
+/*-------------------------------------TERMINANDO SECTION*/
+/*-------------------------------------COMENZANDO SECTION2*/
+.section2 .list {
+    list-style: none;
+    margin-top: 20px;
+}
+.list li{
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin:0 10px;
+    text-align: center;
+}
+.list img{
+    width: 100%;
+    padding: 3px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.list li a{
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    
+}
+/*-------------------------------------TERMINANDO SECTION*/
+/*-------------------------------------COMENZANDO SIDEBAR*/
+aside{
+    margin: 20px;
+    width: 200px;
+}
+aside ul{
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+aside li{
+    margin: 10px 0;
+}
+aside li a{
+    text-decoration: none;
+    font-size: 15px;
+}
+asideli a:hover{
+    color:#792f2f;
+}
+aside img{
+    width: 15px;
+    margin-right: 10px;
+}
+aside h3{
+    padding: 5px;
+    border-bottom: 2px solid #ccc;
+}
+aside p{
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+aside p a{
+    text-decoration: none;
+}
+/*-------------------------------------TERMINANDO SECTION2*/
+/*-------------------------------------COMENZANDO FOOTER*/
+footer{
+    background-color: #333;
+    color: #fff;
+}
+footer p a{
+    color: #ccc;
+    text-decoration: none;
+}
+footer ul{
+    display: inline-block;
+    list-style: none;
+    margin: 50px;
+    position: relative;
+    left: 130px;
+    bottom:40px;
+    
+}
+footer ul li {
+    display: inline-block;
+    padding: 10px
+}
+footer li a{
+     color: #ccc;
+    text-decoration: none;
+}
+footer p{
+    padding: 20px;
+}
+.foot{
+    position: relative;
+    bottom: 80px;
+    left: 250px;
+    color:#ccc; 
+}
